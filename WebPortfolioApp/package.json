@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",
+    "build": "expo export -p web --output-dir build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "reset-project": "node ./scripts/reset-project.js",
